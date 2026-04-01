@@ -126,3 +126,7 @@ const title = document.querySelector('.title')
 title.textContent = 'DOM Training Arena'
 
 zad.20
+const navItem = document.querySelector('.nav-item a')
+navItem.firstChild.textContent = 'Start'
+
+zad.21
