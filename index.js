@@ -110,3 +110,19 @@ function removeElements() {
 }
 
 zad.18
+function addParagraph(tekst) {
+  event.preventDefault();
+  var text = document.querySelector('#newParagraph').value;
+  var newParagraph = document.querySelector('details > section > p');
+  newParagraph.textContent = text;
+  document.querySelector('section').appendChild(newParagraph);
+  document.querySelector('#newParagraph').value = ' ';
+}
+
+  //Dróga storna
+
+zad.19
+const title = document.querySelector('.title')
+title.textContent = 'DOM Training Arena'
+
+zad.20
