@@ -143,3 +143,21 @@ const selector = document.querySelector('.card.highlight')
 selector.classList.add('active')
 
 zad.5
+const glowowy = document.querySelector('.card .card-header')
+glowowy.textContent = 'Zmieniona karta'
+
+zad.6
+const pozdro = document.querySelector("details .info-text")
+pozdro.textContent = 'Zmień jego tekst'
+  
+zad.7
+const pawel = document.querySelector("label input")
+pawel.setAttribute("value", 'Jan')
+const jan = pawel.value
+console.log(jan)
+  
+zad.8
+const german = document.querySelector('.select')
+german.value = 'de'
+
+zad.9
