@@ -165,7 +165,122 @@ const sprawdz = document.querySelector(".checkbox")
 sprawdz.checked = true
 
 zad.10
-const podkresl = document.querySelector('.deep-text')
-podkresl.classList.add('highlight')
+const podklesl = document.createElement("class")
+podklesl.classList.add('highlight');
+
+const text2 = document.querySelector(".deep-text")
+text2.appendChild(podklesl)
 
 zad.11
+const master = document.createElement("li")
+master.textContent = "Nowy Element"
+const d4c = document.querySelector("#dynamic-list")
+d4c.appendChild(master)
+
+zad.12
+const masteryi = document.createElement("li")
+master.textContent = "Nowy Element"
+const master2 = document.createElement("li")
+master2.textContent = "Nowy Element"
+const master3 = document.createElement("li")
+master3.textContent = "Nowy Element"
+const menu = document.querySelector(".menu-list")
+menu.appendChild(masteryi)
+menu.appendChild(master2)
+menu.appendChild(master3)
+
+zad.13
+const create = document.createElement("div class ='card'")
+const sekcja = document.querySelector(".cards-section")
+sekcja.appendChild(create)
+
+zad.14
+const box = document.createElement(".box")
+box.textContent = "Nowy Element"
+const stop = document.querySelector(".boxes-container")
+stop.appendChild(box)
+
+zad.15
+const power = document.createElement("p")
+power.textContent = "Jan Paweł II Papież Polak"
+const jon = document.querySelector(".dynamic-area")
+jon.appendChild(power)
+
+zad.16
+function addElement() {
+  var lista = document.querySelector('#insertion-container');
+  var nowyItem = document.createElement('.box');
+  nowyItem.textContent = 'Nowy element';
+  lista.insertBefore(nowyItem, lista.firstChild);
+}
+
+zad.17
+const list = document.createElement("li")
+list.textContent = "Nowy Element"
+const dynamic = document.querySelector("#dynamic-list")
+dynamic.prepend(list)
+
+zad.18
+const s = document.createElement("span")
+const karta = document.querySelectorAll(".card-header")
+karta.appendChild(s)
+
+zad.19
+const papi = document.createElement("p")
+papi.textContent = "Jan Paweł II Papież Polak"
+const details = document.querySelector("details")
+details.appendChild(papi)
+
+zad.20
+const przycisk = document.createElement("button")
+przycisk.textContent = "przycisk"
+const button = document.querySelector(".playground")
+button.append(przycisk)
+
+zad.21
+const zniszcz = document.querySelectorAll(".removable")
+for (let element of zniszcz ){
+  element.remove()
+}
+
+zad.22
+const dynamito = document.querySelector("#dynamic-list > li:nth-last-child(1)")
+const lisc = document.querySelector("#dynamic-list")
+lisc.removeChild(dynamito)
+
+zad.23
+const balatro = document.querySelector(".card[data-id='1']")
+balatro.remove()
+
+zad.24
+const box2 = document.querySelectorAll(".box")
+const miku = document.querySelector("#insertion-container")
+box2.forEach((elements)=>
+miku.remove(boxy))
+  
+zad.25
+const delta = document.querySelector("details")
+delta.remove()
+  
+zad.26
+const bieg = document.querySelectorAll("input")
+bieg.forEach(inputs => {
+  console.log(inputs.name)
+})
+  
+zad.27
+const mail = document.querySelector("input[name='email']")
+mail.name = "user-email"
+  
+zad.28
+const light = document.querySelector(".card-highlight")
+light.setAttribute('data-test', 123)
+  
+zad.29
+const lobby = document.querySelectorAll(".menu-list li")
+lobby.forEach((elementy)=>
+elementy.textContent = "Zmieniono")
+  
+zad.30
+
+  
