@@ -6,12 +6,12 @@ const body = document.querySelector("body")
 body.appendChild(div)
 
 zad.2
-const red = document.querySelector("h1")
-czerwony.style.color = "red"
+const kolor = document.querySelector("h1")
+kolor.style.color = "red"
 
 zad.3
-const obrazek = document.querySelector("img")
-obrazek.src = "https://loremflickr.com/566/320/dog"
+const obraz = document.querySelector("img")
+obraz.src = "https://loremflickr.com/566/320/dog"
 
 zad.4
 const paragraf = document.querySelector("main")
@@ -19,9 +19,9 @@ const paragrafRemove = paragraf.querySelector("p")
 paragraf.removeChild(paragrafRemove)
 
 zad.5
-const div = document.createElement("div")
-div.textContent = "div"
-div.classList.add('nowak');
+const dev = document.createElement("div")
+dev.textContent = "div"
+dev.classList.add('nowak');
 
 const body = document.querySelector("body")
 body.appendChild(div)
@@ -36,8 +36,8 @@ const activeListItem = document.querySelector('.active');
 activeListItem.classList.remove('.active');
 
 
-const body = document.querySelector("body")
-body.appendChild(li)
+const ciało = document.querySelector("body")
+ciało.appendChild(li)
 
 zad.7
 const button = document.querySelector("button")
@@ -129,8 +129,8 @@ zad.1
 const title = document.querySelector('.title')
 title.textContent = 'DOM Training Arena'
 
-zad.2
-const navItem = document.querySelector('.nav-item a')
+zad.2 //20'ste zadanie
+const navItem = document.querySelector('.nav-item a') 
 navItem.firstChild.textContent = 'Start'
 
 zad.3
@@ -161,3 +161,11 @@ const german = document.querySelector('.select')
 german.value = 'de'
 
 zad.9
+const sprawdz = document.querySelector(".checkbox")
+sprawdz.checked = true
+
+zad.10
+const podkresl = document.querySelector('.deep-text')
+podkresl.classList.add('highlight')
+
+zad.11
