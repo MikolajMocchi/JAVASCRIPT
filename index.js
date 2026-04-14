@@ -119,14 +119,27 @@ function addParagraph(tekst) {
   document.querySelector('#newParagraph').value = ' ';
 }
 
-  //Dróga storna
+  //Dróga storna (V2)
+  //Dróga storna (V2)
+  //Dróga storna (V2)
+  //Dróga storna (V2)
+  //Dróga storna (V2)
 
-zad.19
+zad.1
 const title = document.querySelector('.title')
 title.textContent = 'DOM Training Arena'
 
-zad.20
+zad.2
 const navItem = document.querySelector('.nav-item a')
 navItem.firstChild.textContent = 'Start'
 
-zad.21
+zad.3
+const menu = document.querySelector(".menu-list li")
+const text = lista.textContent;
+console.log(text);
+
+zad.4
+const selector = document.querySelector('.card.highlight')
+selector.classList.add('active')
+
+zad.5
