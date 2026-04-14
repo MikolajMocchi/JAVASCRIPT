@@ -282,5 +282,71 @@ lobby.forEach((elementy)=>
 elementy.textContent = "Zmieniono")
   
 zad.30
+const slay = document.querySelector(".card")
+slay.classList.add('processed');
+const spire = document.querySelector(".card")
+spire(data.status) = "done"
+
+zad.31
+const add_item_btn = document.querySelector('#add-item-btn')
+add_item_btn.addEventListener('click', () => {
+  const item_input = document.querySelector('#item-input').value
+
+  const li = document.createElement('li')
+  li.textContent = item_input
+
+  document.querySelector('#dynamic-list').appendChild(li)
+  document.querySelector('#item-input').value = ''
+})
+
+//zad 32
+const item_input = document.querySelector('#item-input')
+
+item_input.addEventListener('input', (event) => {
+  console.log(event.target.value)
+})
+
+//zad 33
+const insert_before_btn = document.querySelector('#insert-before-btn')
+
+insert_before_btn.addEventListener('click', () => {
+  const box = document.createElement('div')
+  box.classList.add('box')
+  const insertion_container = document.querySelector('#insertion-container')
+  insertion_container.prepend(box)
+})
+
+//zad 35
+
+const removable = document.querySelectorAll('.removable')
+
+for(let element of removable){
+  element.addEventListener('click', (event) => {
+    event.target.remove();
+  })
+}
+
+//zad 39
+
+const cards = document.querySelectorAll('.card')
+
+for (let card of cards){
+  card.addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = 'red'
+  })
+
+  card.addEventListener('mouseout', (event) => {
+    event.target.style.backgroundColor = 'transparent'
+  })
+}
+
+//zad 40
+const input = document.querySelector("input[name='name']")
+
+input.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter'){
+    console.log(event.target.value)
+  }
+})
 
   
