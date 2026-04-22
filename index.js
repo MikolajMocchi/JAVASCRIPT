@@ -349,4 +349,17 @@ input.addEventListener('keydown', (event) => {
   }
 })
 
-  
+
+//Trzecia STRONA
+
+//zad 1
+const glowa = document.querySelector('#main-header')
+
+//zad 2
+const navigator = document.querySelector('nav > li')
+
+//zad 3
+const zdegraduj = document.querySelector('.delete-trigger')
+const pierwsz =  zdegraduj.firstElementChild
+
+//zad 4
